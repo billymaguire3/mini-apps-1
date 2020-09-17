@@ -19,6 +19,7 @@ const Homepage = () => {
   )
 }
 
+//Account info
 const F1 = () => {
   return (
     <form>
@@ -42,6 +43,7 @@ const F1 = () => {
   )
 }
 
+// Address Info
 const F2 = () => {
   return (
     <form>
@@ -74,6 +76,7 @@ const F2 = () => {
   )
 }
 
+// CC info
 const F3 = () => {
   return (
     <form>
@@ -83,7 +86,7 @@ const F3 = () => {
       <input type="text" name="card-number" />
       </label>
       <label>
-        exiration date
+        Exiration date
       <input type="text" name="exp" />
       </label>
       <label>
