@@ -10,7 +10,7 @@ app.use(express.static('public'))
 //   res.send('Hello World!')
 // })
 
-app.get('/', (req, res) => {
+app.get('mongodb://localhost:27017', (req, res) => {
   res.status(200).send('Hello from mongoDB');
 })
 

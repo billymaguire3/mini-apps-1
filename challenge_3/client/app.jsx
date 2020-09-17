@@ -37,9 +37,6 @@ const F1 = () => {
       </label>
       <input type="submit" value="Submit" />
     </form>
-    <div>
-      <button>Next</button>
-    </div>
   )
 }
 
@@ -70,9 +67,6 @@ const F2 = () => {
       </label>
       <input type="submit" value="Submit" />
     </form>
-    <div>
-    <button>Next</button>
-  </div>
   )
 }
 
@@ -98,9 +92,6 @@ const F3 = () => {
       <input type="text" name="billing-zip" />
       </label>
     </form>
-    <div>
-    <button>Next</button>
-  </div>
   )
 }
 
