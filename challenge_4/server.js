@@ -1,2 +1,16 @@
+const express = require('express')
+const app = express()
+const port = 3000
+const path = require('path')
 
+// app.use('/', express.static(path.join(__dirname, './client/dist')))
+app.use(express.static('./client/dist'))
+
+// app.get('/', (req, res) => {
+//   res.send('Hello form server GET request')
+// })
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
